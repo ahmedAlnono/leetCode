@@ -31,7 +31,7 @@ const longestValidParentheses = function(s) {
             }
         }
     }
-    return h;
+    return h%2 == 0;
 };
 
 console.log(longestValidParentheses("()(()"))

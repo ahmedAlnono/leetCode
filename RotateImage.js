@@ -12,7 +12,6 @@
             result[j].unshift(matrix[i][j]);
         }
     }
-    matrix = result
-    return matrix;
+    return result;
 };
 console.log(rotate([[1,2,3],[4,5,6],[7,8,9]]))
